@@ -45,7 +45,7 @@ const [spinnerOn, setSpinnerOn] = useState(true)
 
   const toggleSpinner = () => {
   /* STEP 4 */
-  setSpinnerOn(!spinnerOn).toggle
+  setSpinnerOn(!spinnerOn)
   }
   return (
     <div className='widget-spinner container'>
